@@ -1,12 +1,11 @@
 #!/bin/bash
 
-myvar="This is a global variable"
-function myfunc {
-	local myvar="This value is only seen inside the function"
-	echo $myvar
+VAR="This is a globally defined variable"
+function var {
+	#Decalaring of local variables
+	local VAR="This is a locally defined variable"
+	echo $VAR
 }
-myfunc
-echo $myvar
-
-
-
+echo $VAR
+var
+echo $VAR
