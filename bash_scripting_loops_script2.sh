@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# 09/12/2018
+#
+# Loops in Bash Scripting
+
+echo "Loops in Bash Scripting - Linux Scripting Book"
+
+x=1
+while [ $x -le 10 ]
+	do
+	echo x=$x
+	touch bash_script$x.sh
+	let x++
+done
+
+echo "End of script"
+
+
+
