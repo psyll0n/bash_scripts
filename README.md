@@ -1,5 +1,7 @@
 A collection of simple Bash scripts.
 
+Note: Not all of the scripts included in the repo are described below. 
+
 ## Getting Started
 
 1. [Hello.sh](scripts/hello-world.sh): get a simple output
@@ -67,4 +69,4 @@ A collection of simple Bash scripts.
 
 MIT
 
-## A number of misc bash scrips are also a part of the repo.
+
